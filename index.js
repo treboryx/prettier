@@ -1,0 +1,26 @@
+module.exports = {
+  trailingComma: "es5",
+  semi: false,
+  singleQuote: true,
+  useTabs: false,
+  quoteProps: "consistent",
+  bracketSpacing: true,
+  arrowParens: "always",
+  printWidth: 100,
+  importOrder: [
+    "^@ioc:Adonis/(.*)$",
+    "^App/(.*)$",
+    "^Utils/(.*)$",
+    "^Contracts/(.*)$",
+    "^[./]",
+    "<THIRD_PARTY_MODULES>",
+  ],
+  importOrderSeparation: true,
+  importOrderSortSpecifiers: true,
+  importOrderParserPlugins: [
+    "typescript",
+    "jsx",
+    "decorators-legacy",
+    "classProperties",
+  ],
+};
