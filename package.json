@@ -1,6 +1,6 @@
 {
   "name": "@rowboat/prettier",
-  "version": "0.0.3",
+  "version": "0.0.5",
   "description": "Go-to prettier config",
   "main": "index.js",
   "repository": {
@@ -10,7 +10,7 @@
   "author": "treboryx",
   "license": "MIT",
   "devDependencies": {
-    "@trivago/prettier-plugin-sort-imports": "^4.0.0",
-    "prettier": "^2.8.3"
+    "@trivago/prettier-plugin-sort-imports": "^4.3.0",
+    "prettier": "^3.1.0"
   }
 }
